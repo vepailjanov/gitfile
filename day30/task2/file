@@ -1,0 +1,6 @@
+create class Numbers
+create method named as "checkEvenNumber"
+which returns true if provided integer is even
+
+create class TestNumbers
+create method to check "checkEvenNumber"
