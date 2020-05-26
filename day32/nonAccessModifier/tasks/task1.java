@@ -8,7 +8,7 @@ public class task1 {
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(months));
-        task1.months[1]="January";
+        task1.months[1]="May";
         System.out.println(Arrays.toString(task1.months));
     }
 }

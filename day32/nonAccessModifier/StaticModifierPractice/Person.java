@@ -5,11 +5,12 @@ public class Person {
     String jobTitle;
     Calculate calculate;
 
-    public Person(String name, String jobTitle, Calculate calculate) {
-        this.name = name;
-        this.jobTitle = jobTitle;
-        this.calculate =calculate;
-    }
+
+//    public Person(String name, String jobTitle) {
+//        this.name = name;
+//        this.jobTitle = jobTitle;
+////        this.calculate =calculate;
+//    }
     public void print(){
         System.out.println(name);
         System.out.println(jobTitle);

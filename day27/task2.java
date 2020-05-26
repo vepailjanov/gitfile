@@ -2,7 +2,6 @@ package day27;
 import java.util.ArrayList;
 public class task2 {
 
-
     // create class student with fields:
 // string name, double grade
     static class Student {

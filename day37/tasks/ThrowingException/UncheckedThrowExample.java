@@ -12,9 +12,12 @@ public class UncheckedThrowExample {
         }
     }
     public static void main(String[] args) {
-        String username = "hey";
-
-        checkUsername(username);
-        System.out.println("sign up successfully, you have good username");
+        String username = "hello";
+        try {
+            checkUsername(username);
+            System.out.println("sign up successfully, you have good username");
+        }catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
     }
 }

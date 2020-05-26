@@ -11,7 +11,7 @@ public class StringToLocalDateAndTime {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM dd yyyy");
 
         LocalDate localDate = LocalDate.parse(strDate, formatter);
-        
+        System.out.println(localDate);
         String strTime = "12:49";
         LocalTime localTime = LocalTime.parse(strTime);
     }
